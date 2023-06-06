@@ -11,7 +11,7 @@ const Movies = ({ movie }) => {
         navigator(`/movieSummary/${movieId}`)
     }
     return (
-        <div>
+        <div className='border-hover border-info-hover'>
             <div className="card mb-3 ">
                 <img src={show.image.original} className="card-img-top img-fluid px-3 py-3" style={{ height: '400px' }} alt="..." />
                 <div className="card-body">
