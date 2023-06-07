@@ -18,8 +18,8 @@ const MovieSummary = () => {
 
     UseTitle("MovieSummary");
     return (
-        <div className='mt-5 container d-flex align-items-center mb-5'>
-            <img src={movieDetails.image.original} className='img-fluid' style={{ height: '600px' }} alt="" />
+        <div className='mt-5 container d-lg-flex align-items-center mb-5'>
+            <img src={movieDetails.image.original} className='img-fluid ms-md-5' style={{ height: '600px' }} alt="" />
             <div className='ms-5'>
                 <p className='fs-4 fw-bold'>Name: {movieDetails.name}</p>
                 <p className='fs-5'>Official Site: <Link to={movieDetails.officialSite}>{movieDetails.officialSite ? movieDetails.officialSite : "No official site"}</Link></p>

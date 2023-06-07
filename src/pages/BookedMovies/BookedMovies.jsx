@@ -15,7 +15,7 @@ const BookedMovies = () => {
             <div className='row'>
                 {
                     movieCart.map ? movieCart.map((item, index) => (
-                        <div key={index} className="col-3">
+                        <div key={index} className="col-lg-3 col-md-6 col-sm-12">
                             <div className="card mb-2">
                                 <div className="card-body">
                                     <h5 className="card-title">{item.movie}</h5>

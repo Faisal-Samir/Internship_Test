@@ -20,7 +20,7 @@ const Home = () => {
             <h3 className='text-center mb-5'>Movie List</h3>
             <div className='row'>
                 {
-                    movies.map(movie => <div  className='col-4' key={movie.show.id}>
+                    movies.map(movie => <div  className='col-lg-4 col-md-6' key={movie.show.id}>
                         <Movies   movie={movie}></Movies>
                     </div>)
                 }
