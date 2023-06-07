@@ -2,12 +2,9 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 const Movies = ({ movie }) => {
     const { show } = movie;
-    // console.log(show.id);
     const movieId = show.id;
-    console.log(movieId);
     const navigator = useNavigate();
     const handleShow = () =>{
-        // console.log(id);
         navigator(`/movieSummary/${movieId}`)
     }
     return (
